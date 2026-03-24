@@ -60,7 +60,6 @@ function PasswordRequirement({ label, isValid }) {
         type="checkbox"
         readOnly
         checked={isValid}
-        aria-label={label}
       />
       <label>{label}</label>
     </div>
